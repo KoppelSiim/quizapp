@@ -1,7 +1,8 @@
 package quizapp.database;
 
-import java.sql.Connection;
 import org.apache.ibatis.jdbc.ScriptRunner;
+
+import java.sql.Connection;
 
 public class MyBatisScriptUtility {
     public static void runScript(String path, Connection connection) throws Exception {

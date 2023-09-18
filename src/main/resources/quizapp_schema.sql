@@ -16,7 +16,7 @@ CREATE TABLE IF NOT EXISTS question
     difficulty_rank INT NOT NULL,
     content VARCHAR(255) NOT NULL,
     topic_id INT NOT NULL,
-    response_id INT NOT NULL,
+    response_id,
     FOREIGN KEY (topic_id) REFERENCES topic(topic_id),
     FOREIGN KEY (response_id) REFERENCES response(response_id)
 );
