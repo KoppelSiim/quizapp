@@ -3,8 +3,6 @@ package quizapp;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
-
-
 public class DatabaseConnection {
     private static final String URL = "jdbc:mysql://localhost:3306/quiz?characterEncoding=UTF-8";
     private static final String USERNAME = "user";
